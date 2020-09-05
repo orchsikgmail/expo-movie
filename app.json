@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "nomad-movies",
+    "slug": "nomad-movies",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.orchsik.nomadmovies",
+      "versionCode": 5,
+      "permissions" : [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_PHONE_STATE",
+        "READ_CONTACTS"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.orchsik.nomadmovies",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "isTabletOnly": false
+    }
+  }
+}
